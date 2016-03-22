@@ -18,14 +18,9 @@ body {
 }
 
 h2 {
-  color: #fff;
   font-size: 4rem;
   line-height: 1.4;
   margin: 0;
-}
-
-span {
-  background-color: rgba(0, 0, 0, 0.5);
 }
 
 p {
@@ -40,29 +35,21 @@ p {
   position: relative;
 }
 
-.banner-head {
-  max-width: 45rem;
-  width: 100%;
-  left: 50%;
-  display: inline-block;
-  position: absolute;
-  bottom: 0;
-  transform: translateX(-50%);
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.banner-content{
-  top: 50%;
-  left: 40%;
-  transform: translate(-50%, -40%);
-  position: absolute;
-  float: right;
-}
-
 .circle {
-  width: 50%;
   float: left;
+  width: 30%;
+}
+
+.banner-text {
+  float: right;
+  width: 60%;
+}
+
+.banner-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .btn {
